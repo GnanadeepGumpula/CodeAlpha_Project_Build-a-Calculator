@@ -34,12 +34,6 @@ body {
     font-weight: bold;
 }
 
-/*.keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-}*/
-
 .row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
