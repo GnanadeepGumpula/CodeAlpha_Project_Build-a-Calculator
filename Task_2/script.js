@@ -1,7 +1,7 @@
 const display = document.querySelector('.display');
 const keys = document.querySelectorAll('.keys button');
 
-// Handle keyboard input
+
 document.addEventListener('keydown', (event) => {
     const key = event.key;
     const isNumber = /[0-9]/.test(key);
@@ -18,7 +18,7 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-// Handle button clicks
+
 keys.forEach(key => {
     key.addEventListener('click', () => {
         const value = key.textContent;
